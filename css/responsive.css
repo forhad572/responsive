@@ -1,0 +1,116 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .row>* {
+    width: auto;
+  }
+  .banner-text h1 {
+    font-size: 46px;
+  }
+  .banner-text p br{
+    display: none;
+  }
+  .feature-item{
+    margin: 0;
+  }
+  .title {
+    margin-left: 43px;
+  }
+  .gallery-items {
+    grid-template-columns: auto;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+  .member-section{
+    margin-left: 54px;
+  }
+  .member-position{
+    margin-bottom: 20px;
+  }
+  .count-list {
+    flex-direction: column;
+  }
+  .list-1 {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .title {
+    margin-left: 0px;
+  }
+  .feature-grid{
+    grid-template-columns: auto;
+  }
+  .client-logo{
+    text-align: center;
+  }
+  .client-logo .offset-1{
+    margin-left: 32%;
+  }
+  .nav-footer .offset-1{
+    margin-left: 0%; 
+  }
+  .sub-btn{
+    right: 14px;
+  }
+}
